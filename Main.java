@@ -1,19 +1,19 @@
 package com.netcracker;
 
-import com.netcracker.tasksTwo.PartOne;
+import com.netcracker.taskstwo.partone.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        PartOne.magicBox();
+        MagicBox.magicBox();
 
-        System.out.println(PartOne.getDegrees(-2456));
+        System.out.println(Degrees.getDegrees(-2456));
 
-        System.out.println(PartOne.getFactorial(1000));
+        System.out.println(Factorial.getFactorial(1000));
 
-        PartOne.lottery ();
+        Lottery.lottery ();
 
-        PartOne.getNonEmptyString(" Hi   jon ");
+        NonEmptyString.getNonEmptyString(" Hi   jon ");
 		
     }
 }
