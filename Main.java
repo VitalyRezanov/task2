@@ -1,6 +1,7 @@
 package com.netcracker;
 
 import com.netcracker.taskstwo.partone.*;
+import com.netcracker.taskstwo.partthree.IntSequence;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,12 +25,8 @@ public class Main {
         IntSequence sequence =  IntSequence.of(1, 2, 3, 4, 5);
         IntSequence sequence2 =  IntSequence.constant(1);
 
-        while (sequence.hasNext()) {
-            System.out.println(sequence.next());
-        }
-        while (sequence2.hasNext()) {
-            System.out.println(sequence2.next());
-        }
+        IntSequence.printSequence(sequence);
+        IntSequence.printSequence(sequence2);
 		
     }
 }

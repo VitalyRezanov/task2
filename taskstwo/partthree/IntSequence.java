@@ -37,4 +37,10 @@ public interface IntSequence {
     static IntSequence constant(int n) {
         return () -> n;
     }
+
+    static void printSequence(IntSequence seq) {
+        while (seq.hasNext()) {
+            System.out.println(seq.next());
+        }
+    }
 }
