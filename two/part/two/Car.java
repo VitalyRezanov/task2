@@ -1,4 +1,4 @@
-package com.netcracker.taskstwo.pathtwo;
+package com.netcracker.tasks.two.part.two;
 
 public class Car {
     private int x;

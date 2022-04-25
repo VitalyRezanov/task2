@@ -1,4 +1,4 @@
-package com.netcracker.taskstwo.partthree;
+package com.netcracker.tasks.two.part.three;
 
 public interface IntSequence {
     default boolean hasNext() {

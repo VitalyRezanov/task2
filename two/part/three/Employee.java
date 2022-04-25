@@ -1,4 +1,4 @@
-package com.netcracker.taskstwo.partthree;
+package com.netcracker.tasks.two.part.three;
 
 public class Employee implements Measurable{
     private double salary;

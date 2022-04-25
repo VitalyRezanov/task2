@@ -1,4 +1,4 @@
-package com.netcracker.taskstwo.partone;
+package com.netcracker.tasks.two.part.one;
 
 public class NonEmptyString {
     public static void getNonEmptyString (String str) {

@@ -1,4 +1,4 @@
-package com.netcracker.taskstwo.partone;
+package com.netcracker.tasks.two.part.one;
 
 public class Degrees {
     public static int getDegrees(int deg) {

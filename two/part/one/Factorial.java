@@ -1,4 +1,4 @@
-package com.netcracker.taskstwo.partone;
+package com.netcracker.tasks.two.part.one;
 
 import java.math.BigInteger;
 

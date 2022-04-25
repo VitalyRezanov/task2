@@ -1,4 +1,4 @@
-package com.netcracker.taskstwo.pathtwo;
+package com.netcracker.tasks.two.part.two;
 
 public final class Point {
 

@@ -1,7 +1,7 @@
 package com.netcracker;
 
-import com.netcracker.taskstwo.partone.*;
-import com.netcracker.taskstwo.partthree.IntSequence;
+import com.netcracker.tasks.two.part.one.*;
+import com.netcracker.tasks.two.part.three.IntSequence;
 
 public class Main {
     public static void main(String[] args) {
